@@ -1,0 +1,194 @@
+Film_Festival_Schedule:
+MAXIMIZE
+3.7*Showing_0 + 6.4*Showing_1 + 7.2*Showing_10 + 7.6*Showing_11 + 8.0*Showing_12 + 8.3*Showing_13 + 8.3*Showing_14 + 8.3*Showing_15 + 6.8*Showing_16 + 8.0*Showing_17 + 7.3*Showing_18 + 6.9*Showing_19 + 6.4*Showing_2 + 7.7*Showing_20 + 5.5*Showing_21 + 7.8*Showing_22 + 7.3*Showing_23 + 4.2*Showing_24 + 5.7*Showing_25 + 7.8*Showing_26 + 7.7*Showing_27 + 7.3*Showing_28 + 5.7*Showing_29 + 7.8*Showing_3 + 4.2*Showing_30 + 7.9*Showing_31 + 7.8*Showing_32 + 5.6*Showing_33 + 8.3*Showing_34 + 7.3*Showing_35 + 3.7*Showing_36 + 6.4*Showing_37 + 7.7*Showing_38 + 8.0*Showing_39 + 7.7*Showing_4 + 7.9*Showing_40 + 6.9*Showing_41 + 7.5*Showing_42 + 5.9*Showing_43 + 6.4*Showing_44 + 7.3*Showing_45 + 7.2*Showing_46 + 6.9*Showing_47 + 7.3*Showing_5 + 7.5*Showing_6 + 6.4*Showing_7 + 5.9*Showing_8 + 7.8*Showing_9 + 0.0
+SUBJECT TO
+_C1: Showing_1 + Showing_2 <= 1
+
+_C2: Showing_3 + Showing_4 <= 1
+
+_C3: Showing_3 + Showing_5 <= 1
+
+_C4: Showing_4 + Showing_5 <= 1
+
+_C5: Showing_7 + Showing_8 <= 1
+
+_C6: Showing_10 + Showing_9 <= 1
+
+_C7: Showing_11 + Showing_9 <= 1
+
+_C8: Showing_10 + Showing_11 <= 1
+
+_C9: Showing_12 + Showing_13 <= 1
+
+_C10: Showing_14 + Showing_15 <= 1
+
+_C11: Showing_14 + Showing_16 <= 1
+
+_C12: Showing_15 + Showing_16 <= 1
+
+_C13: Showing_15 + Showing_17 <= 1
+
+_C14: Showing_17 + Showing_18 <= 1
+
+_C15: Showing_17 + Showing_19 <= 1
+
+_C16: Showing_18 + Showing_19 <= 1
+
+_C17: Showing_20 + Showing_21 <= 1
+
+_C18: Showing_20 + Showing_22 <= 1
+
+_C19: Showing_20 + Showing_23 <= 1
+
+_C20: Showing_21 + Showing_22 <= 1
+
+_C21: Showing_21 + Showing_23 <= 1
+
+_C22: Showing_22 + Showing_23 <= 1
+
+_C23: Showing_24 + Showing_25 <= 1
+
+_C24: Showing_24 + Showing_26 <= 1
+
+_C25: Showing_25 + Showing_26 <= 1
+
+_C26: Showing_27 + Showing_28 <= 1
+
+_C27: Showing_28 + Showing_29 <= 1
+
+_C28: Showing_30 + Showing_31 <= 1
+
+_C29: Showing_30 + Showing_32 <= 1
+
+_C30: Showing_31 + Showing_32 <= 1
+
+_C31: Showing_32 + Showing_33 <= 1
+
+_C32: Showing_35 + Showing_36 <= 1
+
+_C33: Showing_37 + Showing_38 <= 1
+
+_C34: Showing_39 + Showing_40 <= 1
+
+_C35: Showing_39 + Showing_41 <= 1
+
+_C36: Showing_40 + Showing_41 <= 1
+
+_C37: Showing_42 + Showing_43 <= 1
+
+_C38: Showing_45 + Showing_46 <= 1
+
+_C39: Showing_45 + Showing_47 <= 1
+
+_C40: Showing_46 + Showing_47 <= 1
+
+Watch_Ilveskuiskaaja_|_Lynx_Man_Once: Showing_26 + Showing_3 <= 1
+
+Watch_Being_a_Human_Person_Once: Showing_11 <= 1
+
+Watch_Filmforum_Shorts:_(Be)Rauschend_Once: Showing_21 <= 1
+
+Watch_Svārstības_|_Before_the_Light_Once: Showing_25 + Showing_29 <= 1
+
+Watch_Shorts_4_:_Spiel_Kino_Once: Showing_27 <= 1
+
+Watch_Shorts_10_:_Verborgene_Orte_Once: Showing_22 + Showing_32 <= 1
+
+Watch_En_duva_satt_på_en_gren_och_funderade_på_tilvaron_|_A_Pigeon_Sat_on_a_Branch_Reflecting_on_Existence_|_Eine_Taube_sitzt_auf_einem_Zweig_und_denkt_über_das_Leben_nach_Once:
+ Showing_47 <= 1
+
+Watch_Hugo_Hercules_&_The_Wild_West_/_The_Artist_W._H._D._Koerner_Once:
+ Showing_14 + Showing_34 <= 1
+
+Watch_Nordic_Shorts_5:_Broken_Connections_Once: Showing_24 + Showing_30 <= 1
+
+Watch_Dancing_Queen_Once: Showing_42 + Showing_6 <= 1
+
+Watch_Nordic_Shorts_1:_Cracks_in_the_Exterior_Once: Showing_0 + Showing_36
+ <= 1
+
+Watch_Om_det_oändliga_|_About_Endlessness_|_Über_die_Unendlichkeit_Once:
+ Showing_16 <= 1
+
+Watch_Nordic_Shorts_4:_The_Nuclear_Family_Once: Showing_12 + Showing_17
+ + Showing_39 <= 1
+
+Watch_Blomster_Once: Showing_43 + Showing_8 <= 1
+
+Watch_Roselil_og_stentrolden_|_Rosa_and_the_Stone_Troll_Once: Showing_18
+ + Showing_28 <= 1
+
+Watch_Heartist_Once: Showing_31 + Showing_40 <= 1
+
+Watch_Nordic_Shorts_2:_Inbetween_Once: Showing_1 + Showing_37 + Showing_7 <= 1
+
+Watch_Hør_her'a!_|_Listen_Up!_Once: Showing_19 + Showing_41 <= 1
+
+Watch_A_Sentimental_Short_Story___Motorcycle_Summer_Once: Showing_20 <= 1
+
+Watch_Poetas_|_The_Poet_Once: Showing_23 + Showing_35 + Showing_45 + Showing_5
+ <= 1
+
+Watch_Shorts:_Miteinander_Once: Showing_33 <= 1
+
+Watch_The_Small_Confession___511_Best_Photographs_of_Mars_Once: Showing_9 <= 1
+
+Watch_Twice_Colonized_Once: Showing_2 + Showing_44 <= 1
+
+Watch_Nordic_Shorts_3:_Real_Fake_Truths_Once: Showing_38 + Showing_4 <= 1
+
+Watch_Miraklet_i_Gullspång_|_The_Gullspång_Miracle_Once: Showing_13
+ + Showing_15 <= 1
+
+Watch_Shorts_14_:_Eine_Handbreit_über_dem_Boden_Once: Showing_10 + Showing_46
+ <= 1
+
+VARIABLES
+0 <= Showing_0 <= 1 Integer
+0 <= Showing_1 <= 1 Integer
+0 <= Showing_10 <= 1 Integer
+0 <= Showing_11 <= 1 Integer
+0 <= Showing_12 <= 1 Integer
+0 <= Showing_13 <= 1 Integer
+0 <= Showing_14 <= 1 Integer
+0 <= Showing_15 <= 1 Integer
+0 <= Showing_16 <= 1 Integer
+0 <= Showing_17 <= 1 Integer
+0 <= Showing_18 <= 1 Integer
+0 <= Showing_19 <= 1 Integer
+0 <= Showing_2 <= 1 Integer
+0 <= Showing_20 <= 1 Integer
+0 <= Showing_21 <= 1 Integer
+0 <= Showing_22 <= 1 Integer
+0 <= Showing_23 <= 1 Integer
+0 <= Showing_24 <= 1 Integer
+0 <= Showing_25 <= 1 Integer
+0 <= Showing_26 <= 1 Integer
+0 <= Showing_27 <= 1 Integer
+0 <= Showing_28 <= 1 Integer
+0 <= Showing_29 <= 1 Integer
+0 <= Showing_3 <= 1 Integer
+0 <= Showing_30 <= 1 Integer
+0 <= Showing_31 <= 1 Integer
+0 <= Showing_32 <= 1 Integer
+0 <= Showing_33 <= 1 Integer
+0 <= Showing_34 <= 1 Integer
+0 <= Showing_35 <= 1 Integer
+0 <= Showing_36 <= 1 Integer
+0 <= Showing_37 <= 1 Integer
+0 <= Showing_38 <= 1 Integer
+0 <= Showing_39 <= 1 Integer
+0 <= Showing_4 <= 1 Integer
+0 <= Showing_40 <= 1 Integer
+0 <= Showing_41 <= 1 Integer
+0 <= Showing_42 <= 1 Integer
+0 <= Showing_43 <= 1 Integer
+0 <= Showing_44 <= 1 Integer
+0 <= Showing_45 <= 1 Integer
+0 <= Showing_46 <= 1 Integer
+0 <= Showing_47 <= 1 Integer
+0 <= Showing_5 <= 1 Integer
+0 <= Showing_6 <= 1 Integer
+0 <= Showing_7 <= 1 Integer
+0 <= Showing_8 <= 1 Integer
+0 <= Showing_9 <= 1 Integer

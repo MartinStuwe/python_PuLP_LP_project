@@ -1,0 +1,13 @@
+NFL23_small101.csv;58.1
+NFL23_small131.csv;98.8
+NFL23_small167.csv;65.1
+NFL23_small251.csv;99.8
+NFL23_small353.csv;160.7
+NFL23_small373.csv;29.4
+NFL23_small421.csv;80.2
+NFL23_small449.csv;62.6
+NFL23_small643.csv;105.3
+NFL23_small743.csv;57.9
+NFL23_small751.csv;97.0
+NFL23_small797.csv;49.0
+NFL23_small839.csv;36.7
